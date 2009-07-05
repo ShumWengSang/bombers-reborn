@@ -1,0 +1,563 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer>
+      <setting name="UsedSolutionBuilderID">0</setting>
+    </integer>
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">True</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="FBBAF369-A045-4463-9620-D91995110A59/f:Button.cs" caret="307" scrollPosition="0|0" />
+      <File id="83496C01-6FD7-4013-B8AE-5E786F74C7B7/f:Program.cs" caret="405" scrollPosition="0|0" />
+      <File id="d:Miscellaneous Files/f:Form1.cs" caret="3873" scrollPosition="0|0" />
+      <File id="d:Miscellaneous Files/f:Form1.cs" caret="0" scrollPosition="0|0" />
+      <File id="83496C01-6FD7-4013-B8AE-5E786F74C7B7/f:App.config" caret="373" scrollPosition="0|0" />
+      <File id="FBBAF369-A045-4463-9620-D91995110A59/f:DDUtils.cs" caret="1256" scrollPosition="0|0" />
+      <File id="FBBAF369-A045-4463-9620-D91995110A59/f:MapElement.cs" caret="121" scrollPosition="0|0" />
+      <File id="FBBAF369-A045-4463-9620-D91995110A59/f:Bomb.cs" caret="1163" scrollPosition="0|24" />
+      <File id="83496C01-6FD7-4013-B8AE-5E786F74C7B7/f:Form1.cs" caret="3067" scrollPosition="0|73" />
+      <File id="FBBAF369-A045-4463-9620-D91995110A59/f:MineBomberEngine.cs" caret="5685" scrollPosition="0|154" />
+      <File id="FBBAF369-A045-4463-9620-D91995110A59/f:Map.cs" caret="2455" scrollPosition="0|52" />
+      <File id="FBBAF369-A045-4463-9620-D91995110A59/f:MySprite.cs" caret="428" scrollPosition="0|4" />
+      <File id="FBBAF369-A045-4463-9620-D91995110A59/f:Sprite.cs" caret="874" scrollPosition="0|30" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="FBBAF369-A045-4463-9620-D91995110A59/f:Sprite.cs" caret="2141" scrollPosition="0|49" />
+      <File id="FBBAF369-A045-4463-9620-D91995110A59/f:MySprite.cs" caret="1760" scrollPosition="0|53" />
+      <File id="83496C01-6FD7-4013-B8AE-5E786F74C7B7/f:Form1.cs" caret="1515" scrollPosition="0|12" />
+      <File id="83496C01-6FD7-4013-B8AE-5E786F74C7B7/f:Form1.cs" caret="2259" scrollPosition="0|62" />
+      <File id="FBBAF369-A045-4463-9620-D91995110A59/f:MineBomberEngine.cs" caret="6630" scrollPosition="0|168" />
+      <File id="FBBAF369-A045-4463-9620-D91995110A59/f:MineBomberEngine.cs" caret="6196" scrollPosition="0|168" />
+      <File id="FBBAF369-A045-4463-9620-D91995110A59/f:MineBomberEngine.cs" caret="5472" scrollPosition="0|145" />
+      <File id="FBBAF369-A045-4463-9620-D91995110A59/f:Map.cs" caret="2511" scrollPosition="0|43" />
+      <File id="FBBAF369-A045-4463-9620-D91995110A59/f:Map.cs" caret="4420" scrollPosition="0|89" />
+      <File id="FBBAF369-A045-4463-9620-D91995110A59/f:Map.cs" caret="3123" scrollPosition="0|68" />
+      <File id="FBBAF369-A045-4463-9620-D91995110A59/f:Map.cs" caret="4086" scrollPosition="0|85" />
+      <File id="FBBAF369-A045-4463-9620-D91995110A59/f:Map.cs" caret="507" scrollPosition="0|0" />
+      <File id="FBBAF369-A045-4463-9620-D91995110A59/f:MineBomberEngine.cs" caret="1075" scrollPosition="0|16" />
+      <File id="FBBAF369-A045-4463-9620-D91995110A59/f:MineBomberEngine.cs" caret="2308" scrollPosition="0|77" />
+      <File id="FBBAF369-A045-4463-9620-D91995110A59/f:Map.cs" caret="2943" scrollPosition="0|72" />
+      <File id="FBBAF369-A045-4463-9620-D91995110A59/f:Map.cs" caret="172" scrollPosition="0|0" />
+      <File id="FBBAF369-A045-4463-9620-D91995110A59/f:Map.cs" caret="968" scrollPosition="0|8" />
+      <File id="FBBAF369-A045-4463-9620-D91995110A59/f:Map.cs" caret="1638" scrollPosition="0|46" />
+      <File id="FBBAF369-A045-4463-9620-D91995110A59/f:Map.cs" caret="3697" scrollPosition="0|85" />
+      <File id="FBBAF369-A045-4463-9620-D91995110A59/f:Map.cs" caret="4382" scrollPosition="0|94" />
+      <File id="FBBAF369-A045-4463-9620-D91995110A59/f:Map.cs" caret="3918" scrollPosition="0|94" />
+      <File id="FBBAF369-A045-4463-9620-D91995110A59/f:Map.cs" caret="1859" scrollPosition="0|49" />
+      <File id="FBBAF369-A045-4463-9620-D91995110A59/f:MineBomberEngine.cs" caret="2836" scrollPosition="0|76" />
+      <File id="83496C01-6FD7-4013-B8AE-5E786F74C7B7/f:Form1.cs" caret="1740" scrollPosition="0|21" />
+      <File id="FBBAF369-A045-4463-9620-D91995110A59/f:Sprite.cs" caret="2648" scrollPosition="0|78" />
+      <File id="83496C01-6FD7-4013-B8AE-5E786F74C7B7/f:Form1.cs" caret="2007" scrollPosition="0|58" />
+      <File id="83496C01-6FD7-4013-B8AE-5E786F74C7B7/f:Form1.cs" caret="3067" scrollPosition="0|75" />
+      <File id="FBBAF369-A045-4463-9620-D91995110A59/f:MySprite.cs" caret="753" scrollPosition="0|8" />
+      <File id="FBBAF369-A045-4463-9620-D91995110A59/f:MySprite.cs" caret="6645" scrollPosition="0|179" />
+      <File id="FBBAF369-A045-4463-9620-D91995110A59/f:Sprite.cs" caret="1190" scrollPosition="27|30" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <CustomStartDirectory>
+    </CustomStartDirectory>
+    <UseShadowCopy>True</UseShadowCopy>
+    <UseCustomFolder>False</UseCustomFolder>
+    <EnableUnitTesting>True</EnableUnitTesting>
+    <Providers />
+  </UnitTestRunner>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="private" priority="48" />
+      <Item value="Rectangle" priority="13" />
+      <Item value="MineBomberEngine" priority="66" />
+      <Item value="Point" priority="18" />
+      <Item value="InvalidCastException" priority="0" />
+      <Item value="long" priority="3" />
+      <Item value="int" priority="69" />
+      <Item value="public" priority="37" />
+      <Item value="char" priority="9" />
+      <Item value="System" priority="1" />
+      <Item value="DateTime" priority="2" />
+      <Item value="Drawing" priority="0" />
+      <Item value="string" priority="6" />
+      <Item value="new" priority="85" />
+      <Item value="MySprite" priority="3" />
+      <Item value="Sprite" priority="2" />
+      <Item value="MapElement" priority="1" />
+      <Item value="IWin32Window" priority="0" />
+      <Item value="window" priority="1" />
+      <Item value="_window" priority="1" />
+      <Item value="void" priority="25" />
+      <Item value="Color" priority="2" />
+      <Item value="base" priority="2" />
+      <Item value="_fEngine" priority="47" />
+      <Item value="fEngine" priority="0" />
+      <Item value="_mapPoint" priority="7" />
+      <Item value="mapPoint" priority="2" />
+      <Item value="_point" priority="18" />
+      <Item value="_width" priority="2" />
+      <Item value="width" priority="9" />
+      <Item value="_height" priority="0" />
+      <Item value="height" priority="11" />
+      <Item value="_stype" priority="2" />
+      <Item value="stype" priority="0" />
+      <Item value="_nSurface" priority="1" />
+      <Item value="nSurface" priority="0" />
+      <Item value="Microsoft" priority="8" />
+      <Item value="DirectX" priority="8" />
+      <Item value="DirectDraw" priority="2" />
+      <Item value="Surface" priority="11" />
+      <Item value="Device" priority="3" />
+      <Item value="List" priority="1" />
+      <Item value="Bomb" priority="2" />
+      <Item value="List&lt;Bomb&gt;" priority="0" />
+      <Item value="Map" priority="2" />
+      <Item value="InitBass" priority="0" />
+      <Item value="InitDraw" priority="0" />
+      <Item value="_renderRect" priority="2" />
+      <Item value="_mapRect" priority="1" />
+      <Item value="const" priority="0" />
+      <Item value="CELL_SIZE" priority="4" />
+      <Item value="_fDirectDraw" priority="16" />
+      <Item value="parentControl" priority="1" />
+      <Item value="_parentControl" priority="12" />
+      <Item value="CooperativeLevelFlags" priority="0" />
+      <Item value="SCREEN_WIDTH" priority="4" />
+      <Item value="SCREEN_HEIGHT" priority="4" />
+      <Item value="var" priority="21" />
+      <Item value="SurfaceDescription" priority="3" />
+      <Item value="ddSurfaceDesc" priority="2" />
+      <Item value="SurfaceCaps" priority="6" />
+      <Item value="VideoMemory" priority="2" />
+      <Item value="true" priority="8" />
+      <Item value="Width" priority="3" />
+      <Item value="Height" priority="3" />
+      <Item value="_backSurface" priority="5" />
+      <Item value="Clipper" priority="6" />
+      <Item value="MAP_WIDTH_CELLS" priority="1" />
+      <Item value="MAP_HEIGHT_CELLS" priority="1" />
+      <Item value="_mapSurface" priority="1" />
+      <Item value="ddSurfaceDesc2" priority="0" />
+      <Item value="FileDialogCustomPlace" priority="0" />
+      <Item value="DrawTitle" priority="0" />
+      <Item value="_systemTime" priority="1" />
+      <Item value="_tick" priority="2" />
+      <Item value="DrawFastFlags" priority="1" />
+      <Item value="foreach" priority="4" />
+      <Item value="bomb" priority="0" />
+      <Item value="mySprite" priority="7" />
+      <Item value="bool" priority="6" />
+      <Item value="override" priority="0" />
+      <Item value="return" priority="4" />
+      <Item value="if" priority="23" />
+      <Item value="_map" priority="2" />
+      <Item value="DrawFps" priority="0" />
+      <Item value="_aRect" priority="9" />
+      <Item value="protected" priority="0" />
+      <Item value="Direction" priority="6" />
+      <Item value="_direction" priority="3" />
+      <Item value="_faze" priority="7" />
+      <Item value="left" priority="0" />
+      <Item value="_dRect" priority="3" />
+      <Item value="Size" priority="5" />
+      <Item value="for" priority="12" />
+      <Item value="d" priority="4" />
+      <Item value="Power" priority="2" />
+      <Item value="i" priority="8" />
+      <Item value="xn" priority="9" />
+      <Item value="Math" priority="3" />
+      <Item value="yn" priority="7" />
+      <Item value="mod" priority="1" />
+      <Item value="else" priority="6" />
+      <Item value="break" priority="19" />
+      <Item value="continue" priority="1" />
+      <Item value="FormatException" priority="1" />
+      <Item value="mySpriteNumber" priority="3" />
+      <Item value="Length" priority="5" />
+      <Item value="mySpritePoint" priority="1" />
+      <Item value="value" priority="2" />
+      <Item value="switch" priority="5" />
+      <Item value="case" priority="19" />
+      <Item value="MineBomber_Engine" priority="1" />
+      <Item value="_speed" priority="2" />
+      <Item value="result" priority="4" />
+      <Item value="false" priority="3" />
+      <Item value="Damage" priority="0" />
+      <Item value="lastTick" priority="0" />
+      <Item value="Mined" priority="4" />
+      <Item value="_mineTick" priority="2" />
+      <Item value="currentTick" priority="2" />
+      <Item value="mapX" priority="15" />
+      <Item value="mapY" priority="9" />
+      <Item value="PushButton" priority="0" />
+      <Item value="_live" priority="1" />
+      <Item value="Stopped" priority="3" />
+      <Item value="IsValid" priority="1" />
+      <Item value="Random" priority="0" />
+      <Item value="do" priority="1" />
+      <Item value="while" priority="5" />
+      <Item value="dx" priority="8" />
+      <Item value="dy" priority="5" />
+      <Item value="teleport" priority="3" />
+      <Item value="MapPoint" priority="1" />
+      <Item value="as" priority="2" />
+      <Item value="dRect" priority="2" />
+      <Item value="_weapon" priority="0" />
+      <Item value="aRect" priority="0" />
+      <Item value="Graphics" priority="4" />
+      <Item value="dxGraphics" priority="0" />
+      <Item value="_numParent" priority="0" />
+      <Item value="Font" priority="0" />
+      <Item value="Money" priority="0" />
+      <Item value="Brushes" priority="0" />
+      <Item value="NewsStyleUriParser" priority="1" />
+      <Item value="dc" priority="0" />
+      <Item value="try" priority="1" />
+      <Item value="finally" priority="0" />
+      <Item value="c" priority="5" />
+      <Item value="ModMap" priority="2" />
+      <Item value="MapElem" priority="2" />
+      <Item value="FEngine" priority="8" />
+      <Item value="mapRect" priority="0" />
+      <Item value="button" priority="2" />
+      <Item value="pushedButton" priority="4" />
+      <Item value="doorLocation" priority="1" />
+      <Item value="Draw" priority="1" />
+      <Item value="newBomb" priority="4" />
+      <Item value="Location" priority="5" />
+      <Item value="Faze" priority="0" />
+      <Item value="Tick" priority="0" />
+      <Item value="Weapon" priority="0" />
+      <Item value="Buttons" priority="0" />
+      <Item value="Button" priority="0" />
+      <Item value="newButton" priority="1" />
+      <Item value="MapChars" priority="11" />
+      <Item value="List&lt;Point&gt;" priority="0" />
+      <Item value="_spriteBitmaps" priority="0" />
+      <Item value="number" priority="1" />
+      <Item value="static" priority="0" />
+      <Item value="device" priority="4" />
+      <Item value="pathToBitmap" priority="4" />
+      <Item value="FileStyleUriParser" priority="0" />
+      <Item value="Bitmap" priority="1" />
+      <Item value="bitmap" priority="3" />
+      <Item value="null" priority="1" />
+      <Item value="DDUtils" priority="0" />
+      <Item value="path" priority="0" />
+      <Item value="Thread" priority="1" />
+      <Item value="_game" priority="14" />
+      <Item value="_renderThread" priority="3" />
+      <Item value="StartPosition" priority="0" />
+      <Item value="Form" priority="1" />
+      <Item value="Init" priority="0" />
+      <Item value="Created" priority="0" />
+      <Item value="Application" priority="1" />
+      <Item value="using" priority="8" />
+      <Item value="Direct3D" priority="1" />
+      <Item value="DisplayModesCollection" priority="1" />
+      <Item value="displayMode" priority="5" />
+      <Item value="PixelFormat" priority="0" />
+      <Item value="PrimarySurface" priority="0" />
+      <Item value="_fPrimarySurface" priority="1" />
+      <Item value="ddPrimarySurfaceDesc" priority="0" />
+      <Item value="Window" priority="2" />
+      <Item value="clipper" priority="2" />
+      <Item value="this" priority="3" />
+      <Item value="mineBomberForm" priority="0" />
+      <Item value="MapSize" priority="0" />
+      <Item value="SetValue" priority="0" />
+      <Item value="Array" priority="0" />
+      <Item value="Action" priority="1" />
+      <Item value="k" priority="1" />
+      <Item value="surfaceDescription" priority="1" />
+      <Item value="surface" priority="1" />
+      <Item value="grfx" priority="0" />
+      <Item value="image" priority="0" />
+      <Item value="DrawFastFlags.Wait" priority="0" />
+      <Item value="top" priority="0" />
+      <Item value="throw" priority="0" />
+      <Item value="Delegate" priority="2" />
+      <Item value="delegate" priority="4" />
+      <Item value="Control" priority="2" />
+      <Item value="PointToClient" priority="1" />
+      <Item value="client" priority="0" />
+      <Item value="PointToClientLeftUpperCorner" priority="2" />
+      <Item value="PointToParent" priority="0" />
+      <Item value="object" priority="0" />
+      <Item value="File" priority="2" />
+      <Item value="pathToMapBMD" priority="0" />
+      <Item value="reader" priority="4" />
+      <Item value="mapElems" priority="2" />
+      <Item value="tempMapElem" priority="1" />
+      <Item value="StreamReader" priority="1" />
+      <Item value="pathToMap" priority="4" />
+      <Item value="mapElemsDictionary" priority="0" />
+      <Item value="engine" priority="0" />
+      <Item value="mapChar" priority="0" />
+      <Item value="FileMode.Open" priority="0" />
+      <Item value="FileAccess.Read" priority="0" />
+      <Item value="FileShare.Read" priority="0" />
+      <Item value="Encoding" priority="0" />
+      <Item value="enum" priority="0" />
+      <Item value="Byte" priority="0" />
+      <Item value="byte" priority="1" />
+      <Item value="line" priority="4" />
+      <Item value="DamMap" priority="1" />
+      <Item value="lineChars" priority="0" />
+      <Item value="e" priority="1" />
+      <Item value="Direction.Left" priority="0" />
+      <Item value="Direction.Bottom" priority="0" />
+      <Item value="Direction.Right" priority="0" />
+      <Item value="Direction.Top" priority="0" />
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Now" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBox">
+      <Item value="Show" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Point">
+      <Item value="X" priority="21" />
+      <Item value="Y" priority="15" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.DirectX.DirectDraw.Device">
+      <Item value="SetCooperativeLevel" priority="0" />
+      <Item value="SetDisplayMode" priority="0" />
+      <Item value="GetSurfaceFromDC" priority="1" />
+      <Item value="DisplayMode" priority="0" />
+      <Item value="RestoreDisplayMode" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.DirectX.DirectDraw.CooperativeLevelFlags">
+      <Item value="FullscreenExclusive" priority="1" />
+      <Item value="SetFocusWindow" priority="0" />
+      <Item value="Normal" priority="1" />
+      <Item value="Exclusive" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.DirectX.DirectDraw.SurfaceDescription">
+      <Item value="SurfaceCaps" priority="2" />
+      <Item value="Width" priority="0" />
+      <Item value="Height" priority="0" />
+      <Item value="PixelFormatStructure" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.DirectX.DirectDraw.SurfaceCaps">
+      <Item value="OffScreenPlain" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Rectangle">
+      <Item value="Width" priority="1" />
+      <Item value="Height" priority="1" />
+      <Item value="Left" priority="1" />
+      <Item value="X" priority="0" />
+      <Item value="Y" priority="0" />
+      <Item value="Top" priority="2" />
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.DirectX.DirectDraw.Surface">
+      <Item value="Clipper" priority="0" />
+      <Item value="FillColor" priority="0" />
+      <Item value="DrawFast" priority="6" />
+      <Item value="GetDc" priority="1" />
+      <Item value="ReleaseDc" priority="0" />
+      <Item value="Draw" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Color">
+      <Item value="Black" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="Ticks" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.DirectX.DirectDraw.DrawFastFlags">
+      <Item value="DoNotWait" priority="1" />
+      <Item value="SourceColorKey" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MineBomber_Engine.Bomb">
+      <Item value="Draw" priority="0" />
+      <Item value="Power" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MineBomber_Engine.MySprite">
+      <Item value="Move" priority="0" />
+      <Item value="Draw" priority="0" />
+      <Item value="DrawWeapon" priority="0" />
+      <Item value="DrawLife" priority="0" />
+      <Item value="Live" priority="1" />
+      <Item value="Killed" priority="0" />
+      <Item value="MapPoint" priority="3" />
+      <Item value="Go" priority="1" />
+      <Item value="MoveDirection" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MineBomber_Engine.Map">
+      <Item value="Map" priority="0" />
+      <Item value="DamMap" priority="2" />
+      <Item value="MapChars" priority="7" />
+      <Item value="ModMap" priority="3" />
+      <Item value="Draw" priority="3" />
+      <Item value="Teleports" priority="4" />
+      <Item value="Buttons" priority="1" />
+      <Item value="Load" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MineBomber_Engine.MineBomberEngine">
+      <Item value="BackSurface" priority="6" />
+      <Item value="SpriteSurface" priority="4" />
+      <Item value="GameMap" priority="27" />
+      <Item value="MySprites" priority="9" />
+      <Item value="Bombs" priority="2" />
+      <Item value="Tick" priority="3" />
+      <Item value="CreateSurfaceFromBitmapN" priority="4" />
+      <Item value="InitDraw" priority="0" />
+      <Item value="Exit" priority="0" />
+      <Item value="GetType" priority="0" />
+      <Item value="MapSurface" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@MineBomber_Engine.MineBomberEngine">
+      <Item value="CELL_SIZE" priority="38" />
+      <Item value="MAP_TOP_BORDER_OFFSET" priority="1" />
+      <Item value="MAP_HEIGHT_CELLS" priority="7" />
+      <Item value="MAP_WIDTH_CELLS" priority="9" />
+      <Item value="SCREEN_WIDTH" priority="3" />
+      <Item value="SCREEN_HEIGHT" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Math">
+      <Item value="Round" priority="0" />
+      <Item value="Cos" priority="0" />
+      <Item value="PI" priority="1" />
+      <Item value="Sin" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MineBomber_Engine.Sprite">
+      <Item value="Draw" priority="0" />
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="RemoveAt" priority="0" />
+      <Item value="Add" priority="4" />
+      <Item value="ToArray" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@MineBomber_Engine.Sprite+Direction">
+      <Item value="Left" priority="1" />
+      <Item value="Right" priority="1" />
+      <Item value="Bottom" priority="1" />
+      <Item value="Top" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Random">
+      <Item value="Next" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Enum">
+      <Item value="Parse" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MineBomber_Engine.Sprite+Direction">
+      <Item value="GetType" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Graphics">
+      <Item value="FromHdc" priority="1" />
+      <Item value="FromImage" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Graphics">
+      <Item value="DrawString" priority="0" />
+      <Item value="GetHdc" priority="0" />
+      <Item value="ReleaseHdc" priority="0" />
+      <Item value="DrawImage" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Brushes">
+      <Item value="Blue" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MineBomber_Engine.MapElement">
+      <Item value="MapPoint" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MineBomber_Engine.Button">
+      <Item value="MapPoint" priority="0" />
+      <Item value="Doors" priority="1" />
+      <Item value="Tick" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.File">
+      <Item value="Exists" priority="0" />
+      <Item value="OpenRead" priority="1" />
+      <Item value="OpenText" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@MineBomber_Engine.DDUtils">
+      <Item value="LoadBitmap" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.Application">
+      <Item value="Run" priority="1" />
+      <Item value="DoEvents" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.DirectX.DirectDraw.Clipper">
+      <Item value="Window" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Control">
+      <Item value="Created" priority="0" />
+      <Item value="PointToClient" priority="1" />
+      <Item value="Invoke" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Threading.Thread">
+      <Item value="Start" priority="0" />
+      <Item value="Abort" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Array">
+      <Item value="ForEach" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Bitmap">
+      <Item value="Height" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Diagnostics.Trace">
+      <Item value="TraceInformation" priority="0" />
+      <Item value="TraceError" priority="0" />
+      <Item value="Listeners" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.DirectX.DirectDraw.InvalidRectangleException">
+      <Item value="Message" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Diagnostics.TraceListenerCollection">
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.Form">
+      <Item value="ActiveForm" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Form">
+      <Item value="CancelButton" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Point">
+      <Item value="Empty" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.StreamReader">
+      <Item value="ReadLine" priority="2" />
+      <Item value="Read" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Split" priority="1" />
+      <Item value="ToCharArray" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="Parse" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="IsNullOrEmpty" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Text.Encoding">
+      <Item value="UTF8" priority="4" />
+      <Item value="ASCII" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.Encoding">
+      <Item value="GetChars" priority="1" />
+      <Item value="GetBytes" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.FileInfo">
+      <Item value="Length" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.FileStream">
+      <Item value="Read" priority="0" />
+      <Item value="Position" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.KeyPressEventArgs">
+      <Item value="KeyChar" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Char">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

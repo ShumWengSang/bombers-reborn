@@ -1,0 +1,10 @@
+D:\myfolder\development\MineBomber3000\MineBomber_Engine\bin\Debug\MineBomber_Engine.dll
+D:\myfolder\development\MineBomber3000\MineBomber_Engine\bin\Debug\MineBomber_Engine.pdb
+D:\myfolder\development\MineBomber3000\MineBomber_Engine\obj\Debug\ResolveAssemblyReference.cache
+D:\myfolder\development\MineBomber3000\MineBomber_Engine\obj\Debug\MineBomber_Engine.dll
+D:\myfolder\development\MineBomber3000\MineBomber_Engine\obj\Debug\MineBomber_Engine.pdb
+D:\development\MineBomber3000\MineBomber_Engine\bin\Debug\MineBomber_Engine.dll
+D:\development\MineBomber3000\MineBomber_Engine\bin\Debug\MineBomber_Engine.pdb
+D:\development\MineBomber3000\MineBomber_Engine\obj\Debug\ResolveAssemblyReference.cache
+D:\development\MineBomber3000\MineBomber_Engine\obj\Debug\MineBomber_Engine.dll
+D:\development\MineBomber3000\MineBomber_Engine\obj\Debug\MineBomber_Engine.pdb
