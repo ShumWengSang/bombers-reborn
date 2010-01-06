@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Drawing;
 using System.Text;
 
@@ -61,7 +62,8 @@ namespace MineBomber_Engine
 
         public override void Draw()
         {
-            int left = (int) MoveDirection*6*MineBomberEngine.CELL_SIZE + Faze*MineBomberEngine.CELL_SIZE;
+            Trace.TraceInformation("Faze: {0}", Faze);
+            int left = ((MoveDirection != Direction.None) ? (int) MoveDirection : 0)*4*MineBomberEngine.CELL_SIZE + Faze*MineBomberEngine.CELL_SIZE;
             int top = (Mined)
                           ? (_stype + 1)*MineBomberEngine.CELL_SIZE
                           : (_stype + 5)*MineBomberEngine.CELL_SIZE;
@@ -159,28 +161,31 @@ namespace MineBomber_Engine
                 {
                     if(!Stopped)
                     {
+                        Trace.TraceInformation("Move direction: {0}", MoveDirection);
+                        Trace.TraceInformation("Position: X='{0}'; Y='{1}'", mapX, mapY);
+                        Trace.TraceInformation((IsValid(mapX, mapY)?"Valid":"Not valid"));
                         switch(MoveDirection)
                         {
                             case Direction.Left:
-                                if(IsValid(mapX, mapY))
+                                if(IsValid(mapX - 1, mapY))
                                 {
                                     --mapX;
                                 }
                                 break;
                             case Direction.Right:
-                                if (IsValid(mapX, mapY))
+                                if (IsValid(mapX + 1, mapY))
                                 {
                                     ++mapX;
                                 }
                                 break;
                             case Direction.Top:
-                                if (IsValid(mapX, mapY))
+                                if (IsValid(mapX, mapY - 1))
                                 {
                                     --mapY;
                                 }
                                 break;
                             case Direction.Bottom:
-                                if (IsValid(mapX, mapY))
+                                if (IsValid(mapX, mapY + 1))
                                 {
                                     ++mapY;
                                 }
@@ -364,7 +369,7 @@ namespace MineBomber_Engine
                 MineBomberEngine.CELL_SIZE,
                 MineBomberEngine.CELL_SIZE);
 
-            FEngine.BackSurface.DrawFast(0, 0, FEngine.SpriteSurface[1], aRect, 0);
+                FEngine.BackSurface.DrawFast(0, 0, FEngine.SpriteSurface[1], aRect, 0);
         }
 
         public bool IsValid(int mapX, int mapY)
@@ -395,6 +400,9 @@ namespace MineBomber_Engine
                 case '': 
                 case '™': 
                 case 'љ':
+                    result = true;
+                    break;
+                case '0':
                     Speed = 0;
                     result = true;
                     break;

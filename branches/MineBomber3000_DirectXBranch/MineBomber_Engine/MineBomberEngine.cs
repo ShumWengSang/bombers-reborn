@@ -94,7 +94,9 @@ namespace MineBomber_Engine
                 MAP_HEIGHT_CELLS * CELL_SIZE);
 
             _fDirectDraw = new Device();
-            _fDirectDraw.SetCooperativeLevel(_parentControl, CooperativeLevelFlags.FullscreenExclusive);
+            _fDirectDraw.SetCooperativeLevel(_parentControl, CooperativeLevelFlags.Normal);
+
+//            _fDirectDraw.SetCooperativeLevel(_parentControl, CooperativeLevelFlags.FullscreenExclusive);
 //            _fDirectDraw.SetDisplayMode(SCREEN_WIDTH, SCREEN_HEIGHT, BIT_DEPTH, 0, false);
 
             var ddPrimarySurfaceDesc = new SurfaceDescription
@@ -122,7 +124,7 @@ namespace MineBomber_Engine
                                         Width = _renderRect.Width,
                                         Height = _renderRect.Height
                                     };
-            
+
             _backSurface = new Surface(ddBackSurfaceDesc, _fDirectDraw);
 
             var ddSurfaceDesc2 = new SurfaceDescription
@@ -137,7 +139,7 @@ namespace MineBomber_Engine
             };
             MapSurface = new Surface(ddSurfaceDesc2, _fDirectDraw);
 
-            BackSurface.FillColor = Color.Black;
+            BackSurface.ColorFill(Color.Black);
         }
 
         public void InitBass( ) {}
@@ -183,7 +185,7 @@ namespace MineBomber_Engine
 
             _fPrimarySurface.Draw(
                 new Rectangle(
-                    Point.Empty,
+                    _parentControl.Location,
                     new Size(SCREEN_WIDTH, SCREEN_HEIGHT)),
                 _backSurface,
                 DrawFlags.DoNotWait);

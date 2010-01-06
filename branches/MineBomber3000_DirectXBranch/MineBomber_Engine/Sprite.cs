@@ -10,7 +10,7 @@ namespace MineBomber_Engine
 {
     public class Sprite
     {
-        public enum Direction
+        public enum Direction : int
         {
             Right,
             Left,
@@ -21,7 +21,7 @@ namespace MineBomber_Engine
 
         public Sprite()
         {
-            
+//            MoveDirection = Direction.None;
         }
 
         public int NSurface
