@@ -13,7 +13,7 @@ namespace MineBomber_WinFormDisplay
 {
     public partial class Form1 : Form
     {
-        private MineBomber_Engine.MineBomberEngine _game;
+        private MineBomberEngine _game;
         private Thread _renderThread;
 
         public Form1()
@@ -46,7 +46,7 @@ namespace MineBomber_WinFormDisplay
             
             _game.InitDraw();
 
-            _game.CreateSurfaceFromBitmapN("mb_mans2.png", 0); ;//mb_mans.png
+            _game.CreateSurfaceFromBitmapN("mb_mans2.png", 0);//mb_mans.png
             _game.CreateSurfaceFromBitmapN("mb_elements.png", 1);
             _game.CreateSurfaceFromBitmapN("mb_fire.png", 2);
             _game.CreateSurfaceFromBitmapN("mb_stat.png", 3);
@@ -86,17 +86,24 @@ namespace MineBomber_WinFormDisplay
         {
             switch (e.KeyChar)
             {
+                case 'a':
                 case 'A':
                     _game.MySprites[1].MoveDirection = Sprite.Direction.Left;
                     break;
+                case 's':
                 case 'S':
                     _game.MySprites[1].MoveDirection = Sprite.Direction.Bottom;
                     break;
+                case 'd':
                 case 'D':
                     _game.MySprites[1].MoveDirection = Sprite.Direction.Right;
                     break;
+                case 'w':
                 case 'W':
                     _game.MySprites[1].MoveDirection = Sprite.Direction.Top;
+                    break;
+                default:
+                    _game.MySprites[1].MoveDirection = Sprite.Direction.None;
                     break;
             }
 
