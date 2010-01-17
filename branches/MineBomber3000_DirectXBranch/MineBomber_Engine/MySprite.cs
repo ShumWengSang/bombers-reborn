@@ -24,6 +24,7 @@ namespace MineBomber_Engine
             _width = width;
             _height = height;
             _stype = stype;
+            _mineSpeed = 15;
             NSurface = nSurface;
             Stopped = true;
         }
@@ -89,7 +90,8 @@ namespace MineBomber_Engine
             int mapY = _mapPoint.Y;
 
             switch (FEngine.GameMap.MapChars[mapX][mapY])
-            {
+            {                    
+                case 'œ':
                 case 'Џ': 
                 case 'э': 
                 case 'ђ': 
@@ -161,9 +163,6 @@ namespace MineBomber_Engine
                 {
                     if(!Stopped)
                     {
-                        Trace.TraceInformation("Move direction: {0}", MoveDirection);
-                        Trace.TraceInformation("Position: X='{0}'; Y='{1}'", mapX, mapY);
-                        Trace.TraceInformation((IsValid(mapX, mapY)?"Valid":"Not valid"));
                         switch(MoveDirection)
                         {
                             case Direction.Left:
@@ -379,27 +378,27 @@ namespace MineBomber_Engine
 
             switch (FEngine.GameMap.MapChars[mapX][mapY])
             {
-                case 'њ': 
-                case 'Џ': 
-                case 'э': 
-                case 'ђ': 
-                case '‘': 
-                case 'y': 
-                case 'm': 
-                case '¬': 
-                case 'M': 
-                case 'N': 
-                case 'K': 
-                case 'L': 
-                case '’': 
-                case '“': 
-                case '”': 
-                case '•': 
-                case '–': 
-                case '—': 
-                case '': 
-                case '™': 
-                case 'љ':
+                case (char)156: //'њ': 
+                case (char)143: //'Џ': 
+                case (char)253: //'э': 
+                case (char)144: //'ђ': 
+                case (char)145: //'‘': 
+                case (char)121: //'y': 
+                case (char)109: //'m': 
+                case (char)172: //'¬': 
+                case (char)77: //'M': 
+                case (char)78: //'N': 
+                case (char)75: //'K': 
+                case (char)76: //'L': 
+                case (char)146: //'’': 
+                case (char)147: //'“': 
+                case (char)148: //'”': 
+                case (char)149: //'•': 
+                case (char)150: //'–': 
+                case (char)151: //'—': 
+                case (char)152: //'': 
+                case (char)153: //'™': 
+                case (char)154: //'љ':
                     result = true;
                     break;
                 case '0':
@@ -409,28 +408,37 @@ namespace MineBomber_Engine
                 case '2':
                 case '3':
                 case '4':
-                    FEngine.GameMap.MapChars[mapX][mapY] = '0';
-                    FEngine.GameMap.Draw();
-                    Tick = currentTick;
-                    Speed = 10;
-                    break;
-                case '5':
-                    FEngine.GameMap.MapChars[mapX][mapY] = '2';
-                    FEngine.GameMap.Draw();
-                    Tick = currentTick;
-                    Speed = 20;
-                    break;
-                default:
-                    if (FEngine.GameMap.MapChars[mapX][mapY] > '6' &&
-                        FEngine.GameMap.MapChars[mapX][mapY] < 'A')
+                    if (Tick + 10 < currentTick)
                     {
-                        FEngine.GameMap.MapChars[mapX][mapY] = '5';
+                        FEngine.GameMap.MapChars[mapX][mapY] = '0';
                         FEngine.GameMap.Draw();
                         Tick = currentTick;
+                        Speed = 10; 
+                    }
+                    break;
+                case '5':
+                    if (Tick + 10 < currentTick)
+                    {
+                        FEngine.GameMap.MapChars[mapX][mapY] = '2';
+                        FEngine.GameMap.Draw();
+                        Tick = currentTick;
+                        Speed = 20;
+                    }
+                    break;
+                default:
+                    if (FEngine.GameMap.MapChars[mapX][mapY] >= '6' &&
+                        FEngine.GameMap.MapChars[mapX][mapY] <= 'A')
+                    {
+                        if (Tick + 10 < currentTick)
+                        {
+                            FEngine.GameMap.MapChars[mapX][mapY] = '5';
+                            FEngine.GameMap.Draw();
+                            Tick = currentTick;
+                        }
                     }
 
-                    if (FEngine.GameMap.MapChars[mapX][mapY] > 'C' &&
-                        FEngine.GameMap.MapChars[mapX][mapY] < 'F')
+                    if (FEngine.GameMap.MapChars[mapX][mapY] >= 'C' &&
+                        FEngine.GameMap.MapChars[mapX][mapY] <= 'F')
                     {
                         if(Mined)
                         {
@@ -458,8 +466,7 @@ namespace MineBomber_Engine
                     break;
             }
 
-            if (FEngine.GameMap.MapChars[mapX][mapY] > 'C' &&
-                       FEngine.GameMap.MapChars[mapX][mapY] < 'F')
+            if (FEngine.GameMap.MapChars[mapX][mapY] >= 'C' && FEngine.GameMap.MapChars[mapX][mapY] <= 'F')
             {
                 Mined = true;
                 _mineTick = currentTick + 10;
